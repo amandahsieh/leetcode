@@ -1,7 +1,7 @@
 /*----------------------Author: Hsin-Yu Hsieh-----------------------*/
 /*First Trial: Sort, match, push back   T:33 91.48%     M:19.8 72.9%*/
 
-/*First Trial: Sort, match, push back*/
+/*First Trial: Sort, match, push back, steps are the followings*/
 //Sort the strings in the vector, and store the result in another vector
 //Match the sorted string in the new vector with unordered map
 //Store the original strings to ans according to the index of the unordered map
