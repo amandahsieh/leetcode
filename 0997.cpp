@@ -1,3 +1,5 @@
+/*--------------------------Author: Hsin-Yu Hsieh--------------------------*/
+/*First Trial: Record #trusted and #trusting    T:172 94.15%  M:60.8 89.43%*/
 class Solution {
 public:
     int findJudge(int n, vector<vector<int>>& trust) {
