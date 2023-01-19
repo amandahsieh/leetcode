@@ -1,6 +1,7 @@
 /*----------------Author: Hsin-Yu Hsieh----------------*/
 /*First Trial: pre & post     T:28 73.38%   M:24 72.52%*/
 
+
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
