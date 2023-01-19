@@ -1,3 +1,5 @@
+/*------------------------Author: Hsin-Yu Hsieh----------------------*/
+/*First Trial: Bucket check (used)         T:5 79.57%   M:10.2 62.19%*/
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
