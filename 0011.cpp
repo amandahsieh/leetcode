@@ -1,3 +1,5 @@
+/*----------------------------Author: Hsin-Yu Hsieh---------------------------*/
+/*First Trial: Check each left bound and right bound   T:2061 5%  M:59.4 5.3% */
 class Solution {
 public:
     int maxArea(vector<int>& height) {
