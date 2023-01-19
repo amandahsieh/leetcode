@@ -1,3 +1,6 @@
+/*---------------------Author: Hsin-Yu Hsieh---------------------*/
+/*First Trial: linear, which is missing  T:30 47.55%  M:18 67.82%*/
+/*Second Trial: Expected sum - Real sum  T:16 92.79%  M:18 23.60%*/
 /*faster but take more space*/
 class Solution {
 public:
