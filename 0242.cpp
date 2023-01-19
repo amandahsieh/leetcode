@@ -1,3 +1,5 @@
+/*----------------------Author: Hsin-Yu Hsieh--------------------*/
+/*First Trial: Record #used characters   T:6 89.44%  M:7.1 97.56%*/
 class Solution {
 public:
     bool isAnagram(string s, string t) {
