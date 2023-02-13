@@ -1,24 +1,19 @@
 /*--------------------Author: Hsin-Yu Hsieh--------------------*/
 /*First  Trial: brutal             T:691 19.45%   M:10.1 88.22%*/
-/*Second Trial: brutal optimize    T:70  48.9 %   M:10   96.75%*/
-/*Third  Trial: brutal optimize    T:11  90.2 %   M:11.6 12.76%*/
+/*Second Trial: brutal optimize    T: 70 48.9 %   M:10   96.75%*/
+/*Third  Trial: brutal optimize    T:  4 99.2 %   M:11.4 12.44%*/
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> dic;
-        vector<int> sum(2);
-        for (int i=0; i<nums.size(); i++){
-            int tmp = target - nums[i];
-            if (dic[tmp]==0){
-                dic[nums[i]]=i+1;
-            }  
-            else{
-                sum[0]=dic[tmp]-1;
-                sum[1]=i;
-                break;
-            }
+        ios_base::sync_with_stdio(false);
+        unordered_map<int, int> n;
+        int i, l=nums.size();
+        for(i=0; i<l; i++){
+            if(n[target-nums[i]])  return {n[target-nums[i]]-1, i};  
+            n[nums[i]]=i+1;
         }
-        return sum;
+        return {0, 0};
     }
 };
 
