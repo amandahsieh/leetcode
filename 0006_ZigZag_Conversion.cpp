@@ -1,3 +1,4 @@
+/*0 1 2 1 0 1 2 ....., use n, t, and numRows to arrange*/
 class Solution {
 public:
     string convert(string s, int numRows) {
